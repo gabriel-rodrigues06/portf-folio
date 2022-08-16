@@ -1,12 +1,21 @@
-@media only screen and (min-width: 200px)and (max-width:1130px){
+@media only screen and (min-width: 375px)and (max-width:1130px){
 
     body{
         background-color:gray;
     }
     
     .background{
-            width: 100vh;
+            width: 415px;
             background-size: cover;
+            padding: 5px;
+    }
+
+    .background nav h2{
+        display: none;
+    }
+
+    .background nav{
+        padding: 5px;
     }
 
     nav{
@@ -17,13 +26,31 @@
         padding: 10px 10px;
     }
 
+    .btn-1{
+        display: none;
+    }
+
+    .container-btn form{
+        
+    }
+
+    .main h1{
+        font-size: 45px;
+    }
+
+    .main-sobre{
+        width: 400px;
+    }
+
+    .text-sobre h2{
+        font-size: 45px;
+    }
+
     .background-color-sobre{
-        background-color: aqua;
         text-align: center;
     }
 
     .main-sobre{
-        background-color: blueviolet;
         max-width: 100vh;
     }
     
